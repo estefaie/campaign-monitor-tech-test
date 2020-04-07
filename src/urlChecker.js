@@ -28,7 +28,6 @@ const getBaseUrl = (url) => {
 };
 
 const urlChecker = async () => {
-  console.log('');
   const readline = rl.createInterface({
     input: process.stdin,
     output: process.stdout,
